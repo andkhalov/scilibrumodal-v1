@@ -18,7 +18,7 @@ The recommended download method is **rclone**.
 mkdir -p data
 
 rclone sync \
-  :http:https://scilibrumodal-v1.object.pscloud.io/ \
+  :http: --http-url https://scilibrumodal-v1.object.pscloud.io \
   ./data/scilibrumodal-v1-data \
   --progress
 ```
@@ -35,7 +35,11 @@ However, because the dataset is a directory export (multiple files), rclone is s
 Verify with the checksums shipped in this repository:
 
 ```bash
-(cd ./data/scilibrumodal-v1-data && sha256sum -c ../checksums.sha256)
+# Linux (coreutils):
+(cd ./data/scilibrumodal-v1-data && sha256sum -c ../../checksums.sha256)
+
+# macOS:
+(cd ./data/scilibrumodal-v1-data && shasum -a 256 -c ../../checksums.sha256)
 ```
 
 Alternatively, use the validation script:
