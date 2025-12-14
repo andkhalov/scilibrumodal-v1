@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "SciLibRuModal (v1)"
+message: "If you use this dataset, please cite it."
+type: dataset
+authors:
+  - family-names: "Khalov"
+    given-names: "Andrey"
+version: "1.0.0"
+date-released: "2025-12-14"
+repository-code: "https://github.com/andkhalov/scilibrumodal-v1"
+url: "https://scilibrumodal-v1.object.pscloud.io/"
+keywords:
+  - "dataset"
+  - "multilingual"
+  - "formal methods"
+  - "information retrieval"
+license: "CC-BY-4.0"

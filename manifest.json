@@ -1,0 +1,22 @@
+{
+  "name": "SciLibRuModal (v1)",
+  "version": "1.0.0",
+  "rows": 417729,
+  "features": [
+    "informal_statement_en",
+    "formal_statement",
+    "informal_statement_ru",
+    "formula_md",
+    "formula_md_illustration",
+    "keywords_en",
+    "keywords_ru"
+  ],
+  "storage": {
+    "type": "s3_public",
+    "endpoint": "https://scilibrumodal-v1.object.pscloud.io/",
+    "path": ""
+  },
+  "notes": [
+    "v1 is text-only; formula images are not included as files."
+  ]
+}

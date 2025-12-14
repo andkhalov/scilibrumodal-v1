@@ -1,0 +1,15 @@
+#
+# SciLibRuModal (v1) — SHA256 checksums for the dataset export files.
+#
+# Files correspond to the public S3 endpoint:
+# https://scilibrumodal-v1.object.pscloud.io/
+#
+# Generated from the local folder: data/scilibrumodal-v1-data
+#
+
+c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7  dataset_dict.json
+b99f479be7ffd5dd8b79b9e455c937637d506ffc896ae82a36b9c826e4439fa7  train/dataset_info.json
+3d57dab5ad31edd6779786bd3f4d710a6322b6d87b2f57a2222d55819aa9d5c9  train/state.json
+71728c2c910964474ec45ca13edda0c3bf8052884cbc55d3a1f562361fb25e2e  train/data-00000-of-00001.arrow
+
+
